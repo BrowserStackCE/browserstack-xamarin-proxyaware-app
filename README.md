@@ -1,6 +1,6 @@
 # bs-xamarin-proxyaware-app (Android)
 
-## This app demonstrates how proxy-aware vs non-proxy aware applications behave on BrowserStack.
+* This app demonstrates how proxy-aware vs non-proxy aware applications behave on BrowserStack.
 
 ## What is a proxy-aware app?
 - https://docstore.mik.ua/orelly/networking_2ndEd/fire/ch09_02.htm
@@ -40,7 +40,7 @@ httpClient = new HttpClient(handler)
 * If URI is of correct format - isUriValid(String)
 * Does the URI exists - checkIfUriExists(String)
 
-##Note
+## Note
 
 * Make sure not to add '/' at the end of the URI/URL thats being checked.
 
