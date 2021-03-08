@@ -33,7 +33,7 @@ var handler = new HttpClientHandler
 };
 httpClient = new HttpClient(handler)
 {
-    BaseAddress = new Uri(textView.Text)
+    BaseAddress = new Uri("<url-fetched>")
 };
 ```
 - In  additon to this, there are 2 validations being performed on the URL/URI passed
