@@ -37,8 +37,8 @@ httpClient = new HttpClient(handler)
 };
 ```
 - In  additon to this, there are 2 validations being performed on the URL/URI passed
-* If URI is of correct format - isUriValid(String)
-* Does the URI exists - checkIfUriExists(String)
+* isUriValid(String) - Validates URI format
+* checkIfUriExists(String) - Validates if the URI exists 
 
 ## Note
 
