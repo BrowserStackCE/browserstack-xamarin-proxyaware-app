@@ -51,7 +51,7 @@ httpClient = new HttpClient(handler)
 * Once the App has started, enter the same URI as above. The IP displayed would be different.
 * Enable the proxy-aware checkbox and on the Devtools "Logcat" you can now search for "Proxy" and there should be two outputs for the Proxy host and Proxy port. This indicates that the app is now able to detect the devices system proxy.
 * To get the same IP on the app as your local machine, you can download and enable the Local testing app on you machine. Along with that enable "Force-Local" option (Ref: https://www.browserstack.com/docs/app-live/local-testing) which will route all the traffic to BrowserStack from your machine. 
-* Once this is done and the "Make proxy aware" checkbox is checked you should the same IP on the app's UI as on your local browser when http://ip-api.com/json was resolved.
+* Once this is done and the "Make proxy aware" checkbox is checked you should see the same IP on the app's UI as on your local browser when http://ip-api.com/json was resolved.
 
 ## Reference
 - https://medium.com/@anna.domashych/httpclient-and-proxy-76835c784eab
