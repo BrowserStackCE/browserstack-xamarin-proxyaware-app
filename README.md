@@ -37,7 +37,7 @@ httpClient = new HttpClient(handler)
 };
 ```
 - In  additon to this, there are 2 validations being performed on the URL/URI passed
-* isUriValid(String) - Validates URI format
+* isUriValid(String) - Validates the URI format
 * checkIfUriExists(String) - Validates if the URI exists 
 
 ## Note
@@ -46,8 +46,8 @@ httpClient = new HttpClient(handler)
 
 ## Example scenario
 * Download the Signed APK from https://github.com/nithyamn/bs-xamarin-proxyaware-app/blob/main/SampleApp/com.companyname.proxyaware-Signed.apk. In addition, you can also Clone the repo and build the app on Visual Studio.
-* Enter http://ip-api.com/json your local browser. Note the IP mentioned in the "query" field.
-* Start an AppLive session from https://app-live.browserstack.com/ and upload the .apk 
+* Enter http://ip-api.com/json on your local browser. Note the IP mentioned in the "query" field.
+* Start an AppLive session from https://app-live.browserstack.com/ and upload the .apk file that you downloaed or built.
 * Once the App has started, enter the same URI as above. The IP displayed would be different.
 * Enable the proxy-aware checkbox and on the Devtools "Logcat" you can now search for "Proxy" and there should be two outputs for the Proxy host and Proxy port. This indicates that the app is now able to detect the devices system proxy.
 * To get the same IP on the app as your local machine, you can download and enable the Local testing app on you machine. Along with that enable "Force-Local" option (Ref: https://www.browserstack.com/docs/app-live/local-testing) which will route all the traffic to BrowserStack from your machine. 
