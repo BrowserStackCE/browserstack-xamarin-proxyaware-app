@@ -56,3 +56,4 @@ httpClient = new HttpClient(handler)
 ## Reference
 - https://medium.com/@anna.domashych/httpclient-and-proxy-76835c784eab
 - https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclienthandler.proxy?view=net-5.0
+- https://docs.microsoft.com/en-us/dotnet/api/system.net.webproxy?view=net-5.0
